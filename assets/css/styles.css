@@ -6,11 +6,11 @@ html {
 body{ 
 	margin: 1rem;
 	background-color: black;
-	color: whitesmoke;
-	font-family: Arial;
-	font-size: 5rem;
+	color: #abc3d1;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: 6rem;
 	overflow: hidden;
-	background: black url("../img/flames.gif");
+	background: black url("../img/space.gif");
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
@@ -19,15 +19,16 @@ background-size: cover;
 .grid-container{
 display: grid;
 grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+gap: 2rem;
 margin: 10% 4rem 0 4rem;
-}
-
-.div{
-	transition-property: transform;
-transition-duration: 3s;
 }
 
 .last {
 	padding-bottom: 2rem;
-	border-bottom: 2px solid rgb(220, 200, 180);
+	border-bottom: 2px solid #abc3d1;
+}
+
+div{
+	transition-property: transform;
+transition-duration: 3s;
 }
